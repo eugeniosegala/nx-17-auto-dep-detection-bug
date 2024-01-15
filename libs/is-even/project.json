@@ -28,6 +28,13 @@
       "options": {
         "jestConfig": "libs/is-even/jest.config.ts"
       }
+    },
+    "dep-parser": {
+      "executor": "@myorg/my-plugin:echo",
+      "options": {
+        "textToEcho": "Hello World"
+      },
+      "dependsOn": ["build"]
     }
   },
   "tags": []

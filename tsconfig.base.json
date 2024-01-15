@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myorg/is-even": ["libs/is-even/src/index.ts"]
+      "@myorg/is-even": ["libs/is-even/src/index.ts"],
+      "@myorg/my-plugin": ["libs/my-plugin/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
